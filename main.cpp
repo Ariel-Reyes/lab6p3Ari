@@ -157,10 +157,7 @@ while(opc!=7){
 											v = al[i]; 
 											cout<<"Ingrese el nuevo nombre: "<<endl; 
 											string nombre;
-											v->setnombre(nombre);
-											 
-									
-											
+											v->setnombre(nombre);		
 											
 											break;
 										}
