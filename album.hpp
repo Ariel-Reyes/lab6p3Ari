@@ -16,8 +16,8 @@ album();
 ~album(); 
 album(vector<cancion*>,string, vector<string*>);
 
-album operator +(cancion*); 
-
+ 
+void setcancion_lista(cancion*);
 
 vector<cancion*> retorno_lista_cancion(); 
 

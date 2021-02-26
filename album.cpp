@@ -11,14 +11,9 @@ album::album(vector<cancion*>lista_cancion,string nombre, vector<string*> artist
 	this->nombre = nombre; 
 };
 
-album album::operator +(cancion* p){
+void album::setcancion_lista(cancion* p){
 	lista_cancion.push_back(p);
-}; 
-
-
-
-
-
+};
 vector<cancion*> album::retorno_lista_cancion(){
 	return this->lista_cancion; 
 }; 
